@@ -3,14 +3,19 @@
 var Counter = React.createClass( {
 	getInitialState: function() {
 		return {
-			counter: 42
+			counter: 0
 		}
+	},
+	increment: function() {
+		this.setState({
+			counter: this.state.counter + 1
+		});
 	},
 	render: function () {
 		return (
 			<div>
 				<h2>{this.state.counter}</h2>
-				<button>Increment</button>
+				<button onClick={this.increment}>Increment</button>
 				<button>Decrement</button>
 			</div>
 		);
