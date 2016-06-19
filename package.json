@@ -4,7 +4,8 @@
   "description": "A simple counter to show how to compile React code to JS",
   "main": "app.js",
   "scripts": {
-    "build": "babel js --out-dir dist"
+    "build": "babel js --out-dir dist",
+    "buildw": "babel -w js --out-dir dist"
   },
   "keywords": [
     "example",
