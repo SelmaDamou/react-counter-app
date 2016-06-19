@@ -1,0 +1,16 @@
+{
+  "name": "counter-app",
+  "version": "1.0.0",
+  "description": "A simple counter to show how to compile React code to JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "react",
+    "babel"
+  ],
+  "author": "jubstuff",
+  "license": "ISC"
+}
