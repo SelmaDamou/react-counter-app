@@ -1,10 +1,19 @@
 "use strict";
 
-console.log( "A simple counter" );
-
 var Counter = React.createClass( {
+	getInitialState: function() {
+		return {
+			counter: 42
+		}
+	},
 	render: function () {
-		return <p>Hello I'm a counter created with React</p>
+		return (
+			<div>
+				<h2>{this.state.counter}</h2>
+				<button>Increment</button>
+				<button>Decrement</button>
+			</div>
+		);
 	}
 } );
 
