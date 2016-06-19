@@ -20,8 +20,8 @@ var Counter = React.createClass( {
 		return (
 			<div>
 				<h2>{this.state.counter}</h2>
-				<button onClick={this.increment}>Increment</button>
-				<button onClick={this.decrement}>Decrement</button>
+				<button className="pure-button button-error" onClick={this.decrement}>Decrement</button>
+				<button className="pure-button button-success" onClick={this.increment}>Increment</button>
 			</div>
 		);
 	}
