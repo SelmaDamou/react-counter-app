@@ -4,7 +4,7 @@
   "description": "A simple counter to show how to compile React code to JS",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel js --out-dir dist"
   },
   "keywords": [
     "example",
