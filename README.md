@@ -4,7 +4,7 @@ This is a simple counter app made in React.
 
 This repository is a companion the the blog post [Reacting to React: setup a base project](http://borzacchiello.it/reacting-to-react-setup-a-base-project)
 
-
+![screenshot](assets/react-counter.png)
 
 # Get Started
 
