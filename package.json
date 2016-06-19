@@ -12,5 +12,9 @@
     "babel"
   ],
   "author": "jubstuff",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-react": "^6.5.0"
+  }
 }
