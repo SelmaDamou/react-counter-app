@@ -1,20 +1,20 @@
 "use strict";
 
 var Counter = React.createClass( {
-	getInitialState: function() {
+	getInitialState: function () {
 		return {
 			counter: 0
 		}
 	},
-	increment: function() {
-		this.setState({
+	increment: function () {
+		this.setState( {
 			counter: this.state.counter + 1
-		});
+		} );
 	},
-	decrement: function() {
-		this.setState({
+	decrement: function () {
+		this.setState( {
 			counter: this.state.counter - 1
-		});
+		} );
 	},
 	render: function () {
 		return (
